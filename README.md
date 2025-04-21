@@ -73,7 +73,5 @@
 
 ---
 
-## 安装和部署
-本项目是纯前端应用，无需特殊安装：
-```bash
-git clone https://github.com/您的用户名/Daily-Calculator.git
+## 联系
+如有任何疑问，请联系：lxyxsc999@163.com
