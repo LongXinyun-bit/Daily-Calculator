@@ -1,6 +1,6 @@
 # Daily-Calculator
 
-![Calculator Preview](https://via.placeholder.com/600x400?text=Calculator+Preview)
+![Calculator Preview](Screenshot 2025-04-21 at 17.01.18)
 一个简单快捷的日常计算器，为紧急且重要的计算需求设计。当您需要快速计算一些不复杂但重要的数值时，这个工具可以高效地满足您的需求。
 
 ---
