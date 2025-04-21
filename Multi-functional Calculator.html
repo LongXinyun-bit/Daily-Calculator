@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Multi_functional Calculatior</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div class="container">
+        <!--Title-->
+        <h1>Daily Calc</h1>
+        <!--输入框-->
+        <input type="Number" id="Num1" class="input-field">
+        <input type="Number" id="Num2" class="input-field">
+        <!--按钮-->
+        <div class="button-container">
+        <button onclick="calculate('+')" class="calculator-button">+</button>
+        <button onclick="calculate('-')" class="calculator-button">-</button>
+        <button onclick="calculate('x')" class="calculator-button">x</button>
+        <button onclick="calculate('÷')" class="calculator-button">÷</button>
+        </div>
+        <!--结果显示-->
+        <!--index.html-->
+        
+        <script src="calculator.js" defer></script>
+        <div class="result-display">Result: <span id="result"></span>
+    </div>
+</body>
+</html>

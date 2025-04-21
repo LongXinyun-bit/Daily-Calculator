@@ -1,0 +1,92 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.calculator-button{
+    width: 50px;
+    height: 50px;
+    background-color: #55d108;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+    .calculator-button:hover{
+        background-color: #034b07;
+}
+
+.input-field{
+    width: 45%;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.result-display {
+    /* 尺寸 */
+    width: 100%;
+    
+    /* 外观 */
+    background-color: #e9e9e9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    /* 内边距和外边距 */
+    padding: 10px;
+    margin: 15px 0;
+    
+    /* 文字设置 */
+    font-size: 24px;
+    text-align: left; /* 数值右对齐 */
+    
+    /* 最小高度确保空间足够 */
+    min-height: 40px;
+}
+
+/* 按钮容器 */
+.button-container {
+    /* 使用Flexbox */
+    display: flex;
+    flex-wrap: wrap; /* 允许换行 */
+    justify-content: space-between; /* 均匀分布 */
+}
+
+/* 每个按钮占据相同宽度 */
+.button-container .calculator-button {
+    flex: 1 0 21%; /* 每行大约4个按钮 */
+    margin: 5px;
+}
+
+/* 所有按钮 */
+button {
+    /* 样式设置 */
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-container .input-field {
+    width: 48%;  /* 稍微小于50%给间距留空间 */
+}
+
